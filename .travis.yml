@@ -6,6 +6,9 @@ language: c
 os:
 - linux
 - osx
+arch:
+  - ppc64le
+  - amd64
 sudo: required
 services:
   - docker
